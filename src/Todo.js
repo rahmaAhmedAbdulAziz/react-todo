@@ -2,10 +2,10 @@ import React from 'react'
 
 
 
-function Todo(todo) {
+function Todo({todo}) {
   return (
-    <div>Todo</div>
+    <div>{todo.name}</div>
   )
 }
 
-export default Todo
+export default Todo;
